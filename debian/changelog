@@ -1,0 +1,71 @@
+libstatistics-test-randomwalk-perl (0.02-2.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Tue, 29 Dec 2020 04:09:01 +0100
+
+libstatistics-test-randomwalk-perl (0.02-2) unstable; urgency=medium
+
+  [ Ansgar Burchardt ]
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ Salvatore Bonaccorso ]
+  * debian/copyright: Replace DEP5 Format-Specification URL from
+    svn.debian.org to anonscm.debian.org URL.
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+
+  [ Axel Beckert ]
+  * debian/copyright: migrate pre-1.0 format to 1.0 using "cme fix dpkg-
+    copyright"
+
+  [ gregor herrmann ]
+  * Strip trailing slash from metacpan URLs.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+  * debian/control: Use HTTPS transport protocol for Vcs-Git URI
+
+  [ gregor herrmann ]
+  * debian/copyright: change Copyright-Format 1.0 URL to HTTPS.
+  * Remove Jonathan Yu from Uploaders. Thanks for your work!
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ Florian Schlichting ]
+  * Add myself to Uploaders
+  * Bump dh compat to level 11
+  * Declare compliance with Debian Policy 4.1.5
+  * Forward fix-pod-spelling.patch
+
+ -- Florian Schlichting <fsfs@debian.org>  Sun, 08 Jul 2018 22:01:27 +0200
+
+libstatistics-test-randomwalk-perl (0.02-1) unstable; urgency=low
+
+  [ Jonathan Yu ]
+  * New upstream release
+  * Use new short debhelper rules format
+  * Standards-Version 3.9.1 (no changes)
+  * Refresh copyright information
+  * Use new 3.0 (quilt) source format
+
+  [ Nathan Handler ]
+  * debian/watch: Update to ignore development releases.
+
+  [ Salvatore Bonaccorso ]
+  * debian/control: Changed: Replace versioned (build-)dependency on
+    perl (>= 5.6.0-{12,16}) with an unversioned dependency on perl (as
+    permitted by Debian Policy 3.8.3).
+
+  [ Ryan Niebur ]
+  * Update jawnsy's email address
+
+ -- Jonathan Yu <jawnsy@cpan.org>  Sat, 01 Jan 2011 11:15:45 -0500
+
+libstatistics-test-randomwalk-perl (0.01-1) unstable; urgency=low
+
+  * Initial Release. (Closes: #526397)
+
+ -- Jonathan Yu <frequency@cpan.org>  Thu, 30 Apr 2009 18:31:54 -0400
